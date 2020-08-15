@@ -26,3 +26,10 @@ ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=47.2.A.11.228
 ro.semc.product.name=Xperia XZ1
 ro.semc.product.device=G83
+
+#enable ADB for debbuging
+
+persist.service.adb.enable=1                                                    
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
